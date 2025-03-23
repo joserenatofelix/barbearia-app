@@ -1,0 +1,113 @@
+.agendamento-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.agendamento-form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.botao-agendar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.botao-agendar:hover {
+    background-color: #45a049;
+}
+
+.horarios-disponiveis {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.horario-item {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.horario-item:hover {
+    background-color: #f5f5f5;
+}
+
+.agendamentos {
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(45deg, #ff0000, #0000ff);
+    color: white;
+}
+
+.agendamentos h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.agendamentos p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.agendamentos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.agendamento-item {
+    text-align: center;
+}
+
+.agendamento-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.download-buttons {
+    margin-top: 40px;
+}
+
+.download-buttons a {
+    margin: 0 10px;
+}
+
+.download-buttons img {
+    width: 150px;
+    height: auto;
+}

@@ -1,0 +1,40 @@
+/* Adicione suas regras de estilo aqui */
+
+.home-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #666;
+}
+
+.botao-agendar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.botao-agendar:hover {
+    background-color: #45a049;
+}
